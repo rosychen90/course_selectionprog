@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>loginServlet</servlet-name>
+  <servlet-class>loginServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>registerServlet</servlet-name>
+  <servlet-class>registerServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>servletCourse</servlet-name>
+  <servlet-class>servlet.servletCourse</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>StdelCourseServlet</servlet-name>
+  <servlet-class>servlet.StdelCourseServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>setInfo_student</servlet-name>
+  <servlet-class>servlet.setInfo_student</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>setpwd_student</servlet-name>
+  <servlet-class>servlet.setpwd_student</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>set_course_slt</servlet-name>
+  <servlet-class>servlet.set_course_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>select_course_slt</servlet-name>
+  <servlet-class>servlet.select_course_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>create_course_slt</servlet-name>
+  <servlet-class>servlet.create_course_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>set_pwd_teacher_slt</servlet-name>
+  <servlet-class>servlet.set_pwd_teacher_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>set_info_slt</servlet-name>
+  <servlet-class>servlet.set_info_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>set_info_teacher_slt</servlet-name>
+  <servlet-class>servlet.set_info_teacher_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>set_score_select_course_slt</servlet-name>
+  <servlet-class>servlet.set_score_select_course_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>set_score_slt</servlet-name>
+  <servlet-class>servlet.set_score_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>dele_course_slt</servlet-name>
+  <servlet-class>servlet.dele_course_slt</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>del_teacher_slt</servlet-name>
+  <servlet-class>servlet.del_teacher_slt</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add_teacher_slt</servlet-name>
+    <servlet-class>servlet.add_teacher_slt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>set_pwd_admin_slt</servlet-name>
+    <servlet-class>servlet.set_pwd_admin_slt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>set_info_admin_slt</servlet-name>
+    <servlet-class>servlet.set_info_admin_slt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dele_student_slt</servlet-name>
+    <servlet-class>servlet.dele_student_slt</servlet-class>
+  </servlet>
+
+
+
+
+ <servlet-mapping>
+  <servlet-name>loginServlet</servlet-name>
+  <url-pattern>/loginServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>registerServlet</servlet-name>
+  <url-pattern>/registerServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>servletCourse</servlet-name>
+  <url-pattern>/servlet/servletCourse</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>StdelCourseServlet</servlet-name>
+  <url-pattern>/servlet/StdelCourseServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>setInfo_student</servlet-name>
+  <url-pattern>/servlet/setInfo_student</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>setpwd_student</servlet-name>
+  <url-pattern>/servlet/setpwd_student</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>set_course_slt</servlet-name>
+  <url-pattern>/servlet/set_course_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>select_course_slt</servlet-name>
+  <url-pattern>/servlet/select_course_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>create_course_slt</servlet-name>
+  <url-pattern>/servlet/create_course_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>set_pwd_teacher_slt</servlet-name>
+  <url-pattern>/servlet/set_pwd_teacher_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>set_info_slt</servlet-name>
+  <url-pattern>/servlet/set_info_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>set_info_teacher_slt</servlet-name>
+  <url-pattern>/servlet/set_info_teacher_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>set_score_select_course_slt</servlet-name>
+  <url-pattern>/servlet/set_score_select_course_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>set_score_slt</servlet-name>
+  <url-pattern>/servlet/set_score_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>dele_course_slt</servlet-name>
+  <url-pattern>/servlet/dele_course_slt</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>del_teacher_slt</servlet-name>
+  <url-pattern>/servlet/del_teacher_slt</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add_teacher_slt</servlet-name>
+    <url-pattern>/servlet/add_teacher_slt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>set_pwd_admin_slt</servlet-name>
+    <url-pattern>/servlet/set_pwd_admin_slt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>set_info_admin_slt</servlet-name>
+    <url-pattern>/servlet/set_info_admin_slt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dele_student_slt</servlet-name>
+    <url-pattern>/servlet/dele_student_slt</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>
